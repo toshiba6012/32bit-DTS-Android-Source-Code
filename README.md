@@ -5,4 +5,4 @@ Hello once again I've just released the source code and Android.mk file for libd
 
 
 Best regards 
-Ryan Johnsob
+Ryan Johnson

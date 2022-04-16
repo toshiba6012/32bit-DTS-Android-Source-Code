@@ -1,0 +1,23 @@
+To install for phones use the arm64-v8a folder. To run Android on computer look
+into Remix OS Hacked it's the best one for Android-x86 it has windows and you can
+run multiple apps at once. If your using this use the x86_64 folder. Next unpack
+the contents of the Home folder to your Phones internal storage. Rename the file
+asoundrc to ".asoundrc". Then install Termux app from GooglePlay and run these
+commands.
+
+termux-setup-storage
+
+cp libdcaenc.so /data/data/com.termux/files/usr/lib
+
+chmod 644 /data/data/com.termux/files/usr/lib/libdcaenc.so
+
+export PRELOAD_LIBRARY=/data/data/com.termux/files/usr/lib/libdcaenc.so
+
+
+Once you have completed the following commands reboot your device and the install
+is complete!
+
+
+
+Best regards
+Ryan Johnson
